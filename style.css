@@ -112,15 +112,17 @@ button span{
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-small{
+#submit:hover{
+    background: hsl(154, 59%, 71%);
+}
+.terms{
     color: lightgray;
     font-weight: 700;
     font-size: 9px;
 }
-small span{
+.terms span{
     color: orangered;
 }
 footer{
     text-align: center;
-
 }
