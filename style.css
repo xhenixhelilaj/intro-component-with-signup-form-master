@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body{
     background-color:  hsl(0, 100%, 74%);
 }
 main{
-    padding: 10%;
+    padding: 5% 10%;
 }
 section{
     display: flex;
@@ -21,10 +21,12 @@ section{
     flex-direction: column;
     flex-basis: 50%;
     color: white;
+    padding-top: 80px;
 }
 h5{
     font-size: 40px;
     margin: 20px 0 20px 20px;
+    font-weight: 800;
 }
 p{
     font-size: 14px;
@@ -35,6 +37,7 @@ p{
     display: flex;
     flex-basis: 50%;
     flex-direction: column;
+    align-items: center;
 }
 .second form{
     display: flex;
@@ -49,10 +52,71 @@ button{
     margin-bottom: 20px;
     box-shadow: 0 6px 1px 0px hsl(0deg 0% 0% / 20%);
     cursor: pointer;
+    width: 90%;
 }
 button span{
     font-weight: 600;
 }
 .form{
-    
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 6px 1px 0px hsl(0deg 0% 0% / 20%);
+    padding: 7%;
+    width: 90%;
+    text-align: center;
+}
+#first-name{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5%;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+#last-name{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5%;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+#email{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5%;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+#password{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5%;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+#submit{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 0 3px 1px 0 hsl(154deg 59% 39%);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+small{
+    color: lightgray;
+    font-weight: 700;
+    font-size: 9px;
+}
+small span{
+    color: orangered;
 }
